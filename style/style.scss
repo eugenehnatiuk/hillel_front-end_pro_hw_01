@@ -1,6 +1,7 @@
 @import 'fonts';
 @import 'reset';
 
+
 .main {
   width: 100vw;
   height: 100vh;
@@ -20,8 +21,14 @@
   }
 
   &__text {
+    text-align: center;
     font-family: 'Montserrat';
     font-size: 36px;
     font-weight: 400;
   }
+}
+
+.container {
+  padding: 0 30px;
+
 }
